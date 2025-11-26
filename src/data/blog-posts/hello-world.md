@@ -1,12 +1,12 @@
 ---
-title: Hello World 👋
+title: 你好世界 👋
 slug: hello-world
-publishDate: 30 Nov 2021
-description: Every blog starts with a single post. This is yours. Make it great.
+publishDate: 2021年11月30日
+description: 每个博客都从第一篇文章开始。这是你的第一篇。让它变得精彩吧。
 ---
 
-![Illustration of woman using a meditation app](/assets/blog/casual-life-3d-meditation-crystal.webp)
+![使用冥想应用的女性插图](/assets/blog/casual-life-3d-meditation-crystal.webp)
 
-This post intentionally left blank.
+这篇文章故意留白。
 
-Write what you want.
+写下你想写的内容。

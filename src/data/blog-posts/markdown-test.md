@@ -1,28 +1,28 @@
 ---
-title: Markdown Test Page
+title: Markdown 测试页面
 slug: markdown-test
-publishDate: 01 Dec 2021
-description: A sample page with the most common elements of an article, including headings, paragraphs, lists, and images. Use it as a starting point for applying your own styles.
+publishDate: 2021年12月1日
+description: 包含文章最常见元素的示例页面,包括标题、段落、列表和图片。可以作为应用自己样式的起点。
 ---
 
-![Illustration of woman using a computer receiving likes](/assets/blog/casual-life-3d-likes.webp)
+![使用电脑接收点赞的女性插图](/assets/blog/casual-life-3d-likes.webp)
 
-This page is an adapted version of [markdown-test-page](https://github.com/fullpipe/markdown-test-page). It should give you an idea of how different elements are styled on this template.
+本页面是 [markdown-test-page](https://github.com/fullpipe/markdown-test-page) 的改编版本。它可以让你了解不同元素在此模板上的样式。
 
-## <a name="top"></a> Table of Contents
+## <a name="top"></a> 目录
 
-- [Headings](#Headings)
-- [Paragraphs](#Paragraphs)
-- [Blockquotes](#Blockquotes)
-- [Lists](#Lists)
-- [Horizontal rule](#Horizontal)
-- [Table](#Table)
-- [Code](#Code)
-- [Inline elements](#Inline)
+- [标题](#Headings)
+- [段落](#Paragraphs)
+- [引用](#Blockquotes)
+- [列表](#Lists)
+- [水平线](#Horizontal)
+- [表格](#Table)
+- [代码](#Code)
+- [行内元素](#Inline)
 
 ---
 
-# <a name="Headings"></a>Headings
+# <a name="Headings"></a>标题
 
 # Heading one
 
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 [[Top]](#top)
 
-# <a name="Paragraphs"></a>Paragraphs
+# <a name="Paragraphs"></a>段落
 
 Incididunt ex adipisicing ea ullamco consectetur in voluptate proident fugiat tempor deserunt reprehenderit ullamco id dolore laborum. Do laboris laboris minim incididunt qui consectetur exercitation adipisicing dolore et magna consequat magna anim sunt. Officia fugiat Lorem sunt pariatur incididunt Lorem reprehenderit proident irure. Dolore ipsum aliqua mollit ad officia fugiat sit eu aliquip cupidatat ipsum duis laborum laborum fugiat esse. Voluptate anim ex dolore deserunt ea ex eiusmod irure. Occaecat excepteur aliqua exercitation aliquip dolor esse eu eu.
 
@@ -60,7 +60,7 @@ Officia irure in non voluptate adipisicing sit amet tempor duis dolore deserunt 
 
 [[Top]](#top)
 
-# <a name="Blockquotes"></a>Blockquotes
+# <a name="Blockquotes"></a>引用
 
 Ad nisi laborum aute cupidatat magna deserunt eu id laboris id. Aliquip nulla cupidatat sint ex Lorem mollit laborum dolor amet est ut esse aute. Nostrud ex consequat id incididunt proident ipsum minim duis aliqua ut ex et ad quis. Laborum sint esse cillum anim nulla cillum consectetur aliqua sit. Nisi excepteur cillum labore amet excepteur commodo enim occaecat consequat ipsum proident exercitation duis id in.
 
@@ -78,9 +78,9 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 
 [[Top]](#top)
 
-# <a name="Lists"></a>Lists
+# <a name="Lists"></a>列表
 
-### Ordered List
+### 有序列表
 
 1. Longan
 2. Lychee
@@ -94,7 +94,7 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 6. Miracle fruit
 7. Mulberry
 
-### Unordered List
+### 无序列表
 
 - Olive
 - Orange
@@ -106,7 +106,7 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 
 [[Top]](#top)
 
-# <a name="Horizontal"></a>Horizontal rule
+# <a name="Horizontal"></a>水平线
 
 In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint aliquip mollit mollit. Ex occaecat non deserunt elit laborum sunt tempor sint consequat culpa culpa qui sit. Irure ad commodo eu voluptate mollit cillum cupidatat veniam proident amet minim reprehenderit.
 
@@ -116,7 +116,7 @@ In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore a
 
 [[Top]](#top)
 
-# <a name="Table"></a>Table
+# <a name="Table"></a>表格
 
 Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla commodo sit dolor ad fugiat. Laboris amet ea occaecat duis eu enim exercitation deserunt ea laborum occaecat reprehenderit. Et incididunt dolor commodo consequat mollit nisi proident non pariatur in et incididunt id. Eu ut et Lorem ea ex magna minim ipsum ipsum do.
 
@@ -132,13 +132,13 @@ Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et
 
 [[Top]](#top)
 
-# <a name="Code"></a>Code
+# <a name="Code"></a>代码
 
-## Inline code
+## 行内代码
 
 Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est `code in text` velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna `<strong>in culpa qui officia</strong>` dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.
 
-## Highlighted
+## 高亮代码
 
 Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex.
 
@@ -172,10 +172,10 @@ Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occ
 
 ```html
 <script>
-  let count = 0
+  let count = 0;
 
   function handleClick() {
-    count += 1
+    count += 1;
   }
 </script>
 
@@ -186,7 +186,7 @@ Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occ
 
 [[Top]](#top)
 
-# <a name="Inline"></a>Inline elements
+# <a name="Inline"></a>行内元素
 
 Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim ad labore sunt. Minim deserunt labore laboris velit nulla incididunt ipsum nulla. Ullamco ad laborum ea qui et anim in laboris exercitation tempor sit officia laborum reprehenderit culpa velit quis. **Consequat commodo** reprehenderit duis [irure](#) esse esse exercitation minim enim Lorem dolore duis irure. Nisi Lorem reprehenderit ea amet excepteur dolor excepteur magna labore proident voluptate ipsum. Reprehenderit ex esse deserunt aliqua ea officia mollit Lorem nulla magna enim. Et ad ipsum labore enim ipsum **cupidatat consequat**. Commodo non ea cupidatat magna deserunt dolore ipsum velit nulla elit veniam nulla eiusmod proident officia.
 

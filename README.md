@@ -1,33 +1,33 @@
-# [Astro](https://astro.build) Blog Template
+# [Astro](https://astro.build) 博客模板
 
-[![Screenshot](screenshot.png)](https://astro-blog-template.netlify.app/)
+[![截图](screenshot.png)](https://astro-blog-template.netlify.app/)
 
-## 👉 Check out the ✨ [Live Demo](https://astro-blog-template.netlify.app/) ✨
+## 👉 查看 ✨ [在线演示](https://astro-blog-template.netlify.app/) ✨
 
-## 👩‍🚀 Getting Started
+## 👩‍🚀 开始使用
 
-### Locally
+### 本地安装
 
 ```
 npm init astro -- --template Charca/astro-blog-template
 ```
 
-### On StackBlitz
+### 在 StackBlitz 上使用
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/charca/astro-blog-template)
+[![在 StackBlitz 中打开](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/charca/astro-blog-template)
 
-## ✨ Features:
+## ✨ 特性:
 
 - ✅ Astro 4.0
-- ✅ Dark Mode
-- ✅ Full Markdown support
-- ✅ SEO-friendly setup with canonical URLs and OpenGraph data
-- ✅ RSS 2.0 generation
-- ✅ Sitemap.xml generation
+- ✅ 深色模式
+- ✅ 完整的 Markdown 支持
+- ✅ SEO 友好的设置,包含规范 URL 和 OpenGraph 数据
+- ✅ RSS 2.0 生成
+- ✅ Sitemap.xml 生成
 
-## 🚀 Project Structure
+## 🚀 项目结构
 
-Inside of your Astro project, you'll see the following folders and files:
+在你的 Astro 项目中,你会看到以下文件夹和文件:
 
 ```
 /
@@ -42,23 +42,23 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro 在 `src/pages/` 目录中查找 `.astro` 或 `.md` 文件。每个页面根据其文件名作为路由公开。
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+`src/components/` 目录没有什么特别的,但这是我们放置任何 Astro/React/Vue/Svelte/Preact 组件的地方。
 
-Any static assets, like images, can be placed in the `public/` directory.
+任何静态资源,如图片,都可以放在 `public/` 目录中。
 
-## 🧞 Commands
+## 🧞 命令
 
-All commands are run from the root of the project, from a terminal:
+所有命令都从项目根目录的终端运行:
 
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3030`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+| 命令              | 操作                                   |
+| :---------------- | :------------------------------------- |
+| `npm install`     | 安装依赖                               |
+| `npm run dev`     | 在 `localhost:3030` 启动本地开发服务器 |
+| `npm run build`   | 将生产站点构建到 `./dist/`             |
+| `npm run preview` | 在部署前本地预览构建                   |
 
-## 👀 Want to learn more?
+## 👀 想了解更多?
 
-Feel free to check [Astro's documentation](https://github.com/withastro/astro) or jump into Astro's [Discord server](https://astro.build/chat).
+欢迎查看 [Astro 文档](https://github.com/withastro/astro) 或加入 Astro 的 [Discord 服务器](https://astro.build/chat)。

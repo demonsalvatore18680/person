@@ -1,29 +1,48 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = 'About';
-const description = 'About your blog.';
+const title = "关于";
+const description = "关于本博客";
 const permalink = `${Astro.site.href}about`;
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="about">
+<BaseLayout
+  title={title}
+  description={description}
+  permalink={permalink}
+  current="about"
+>
   <div class="container">
-    <h1>About</h1>
+    <h1>关于</h1>
     <figure class="about-image">
-      <img src="/assets/about-illustration.webp" alt="Illustration of a notebook" width="330">
+      <img src="/assets/about-illustration.webp" alt="笔记本插图" width="330" />
       <figcaption>
-        Illustration by
-        <a href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6" target="_blank" rel="noopener">Icons 8</a>
-        from
-        <a href="https://icons8.com/illustrations" target="_blank" rel="noopener">Ouch!</a>
+        插图来自
+        <a
+          href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6"
+          target="_blank"
+          rel="noopener">Icons 8</a
+        >
+        的
+        <a
+          href="https://icons8.com/illustrations"
+          target="_blank"
+          rel="noopener">Ouch!</a
+        >
       </figcaption>
     </figure>
-    <p>Text placeholder via <a href="https://jeffsum.com/" target="_blank">Jeffsum</a>.</p>
-    <p>So you two dig up, dig up dinosaurs? What do they got in there? King Kong? My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard! Life finds a way. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.</p>
-    <p>You really think you can fly that thing? You know what? It is beets. I've crashed into a beet truck. Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?</p>
-    <p>Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Hey, take a look at the earthlings. Goodbye! I was part of something special. Just my luck, no ice. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?</p>
-    <p>Jaguar shark! So tell me - does it really exist? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Yes, Yes, without the oops! You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?</p>
-    <p>Yes, Yes, without the oops! Do you have any idea how long it takes those cups to decompose. They're using our own satellites against us. And the clock is ticking. Do you have any idea how long it takes those cups to decompose. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!</p>
+    <p>欢迎来到我的博客!这里是我分享想法、经验和见解的地方。</p>
+    <p>
+      我热衷于技术、编程和创新。通过这个博客,我希望能够记录自己的学习历程,分享有价值的内容,并与志同道合的朋友交流。
+    </p>
+    <p>
+      在这里,你可以找到关于 Web
+      开发、软件工程、以及各种技术话题的文章。我相信知识的力量,也相信分享能让我们共同成长。
+    </p>
+    <p>
+      如果你对某个话题感兴趣,或者想要交流讨论,欢迎通过评论或社交媒体与我联系。让我们一起探索技术的无限可能!
+    </p>
+    <p>感谢你的访问,希望你能在这里找到有用的内容。</p>
   </div>
 </BaseLayout>
 
